@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    dynamic: true
+    queue:
+      json:
+        name: queue_json
+      name: queue
+    exchange:
+      json:
+        name: json_exchange
+      name: exchange
+    routingKey:
+      json:
+        name: json_routing_key
+      name: routing_key
+    username: guest
+    password: guest
